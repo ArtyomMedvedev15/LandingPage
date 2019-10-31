@@ -580,7 +580,7 @@ header {
 }
 
 .news {
-    padding: 55px 0px 110px;
+    padding: 55px 0px 90px;
     background-color: #f9f9f9;
 }
 
@@ -674,7 +674,7 @@ header {
 
 .news__slider-inner .slick-btn {
     top: auto;
-    bottom: -110px;
+    bottom: -100px;
 }
 
 .news__slider-inner .slick-next {
@@ -777,4 +777,26 @@ header {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
+}
+
+#modal input {
+    display: block;
+    widows: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+}
+
+#modal input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #ffc222;
+    border: none;
+    text-align: center;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 800;
 }
