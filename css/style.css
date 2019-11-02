@@ -800,3 +800,14 @@ header {
     font-family: 'Roboto' sans-serif;
     font-weight: 800;
 }
+
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+.mob_menu{
+     font-size: 40px;
+}
+.mob_menu::before{
+    content: "\2630";
+}
