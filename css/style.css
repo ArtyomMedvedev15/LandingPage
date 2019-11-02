@@ -713,6 +713,10 @@ header {
 .footer__map {
     padding-top: 10px;
     max-width: 630px;
+    width: 100%;
+}
+.footer__map iframe{
+    width: 100%;
 }
 
 .footer__title {
@@ -779,6 +783,7 @@ header {
     font-weight: 400;
 }
 
+
 #modal input {
     display: block;
     widows: 100%;
@@ -799,4 +804,15 @@ header {
     text-align: center;
     font-family: 'Roboto' sans-serif;
     font-weight: 800;
+}
+
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+.mob_menu{
+     font-size: 40px;
+}
+.mob_menu::before{
+    content: "\2630";
 }
