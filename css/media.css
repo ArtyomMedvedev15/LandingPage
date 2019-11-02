@@ -51,7 +51,16 @@
         margin-bottom: 10px;
     }
 
-
+    .form{
+        padding-bottom: 25px;
+    }
+    .advantages__inner{
+        display: block ;
+    }
+    .advantages__item{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
 
 }
 @media (max-width: 700px) {
